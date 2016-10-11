@@ -58,7 +58,7 @@ void menu() {
 
 void mostrar(Tlista &lista) {
 	Tlista p = lista;
-	cout << "La lista es la siguiente  : " << endl;
+	cout << "La lista ordenada es la siguiente  : " << endl;
 	while (p != NULL) {
 		cout << p->dato << " ";
 		p = p->siguiente;
